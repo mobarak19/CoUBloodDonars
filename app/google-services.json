@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "356070975266",
+    "firebase_url": "https://fir-database-c62ad.firebaseio.com",
+    "project_id": "fir-database-c62ad",
+    "storage_bucket": "fir-database-c62ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356070975266:android:764f9b5e2e77cc66",
+        "android_client_info": {
+          "package_name": "com.cse.cou.mobarak.coublooddonars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356070975266-mcnpf146p9ue7di6j7us0ovdbc7fsld6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cse.cou.mobarak.coublooddonars",
+            "certificate_hash": "474932129a36632bddbfa371b64593b97598ebce"
+          }
+        },
+        {
+          "client_id": "356070975266-3a9qbar574s2to95sjglsvi58dpgol82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGSwXjSc-Ld2foMSGyG5ZzB_oTx6g6agU"
+        },
+        {
+          "current_key": "AIzaSyCkQoowKCBB7TLyUnUJNzjb6zCVVBVJJ6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356070975266-3a9qbar574s2to95sjglsvi58dpgol82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

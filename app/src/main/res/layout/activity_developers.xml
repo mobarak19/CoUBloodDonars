@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cse.cou.mobarak.coublooddonars.Developers">
+
+    <TextView
+        android:id="@+id/dev"
+        style="@style/mystyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="developers"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/mobarak"
+        style="@style/mystyle"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/dev"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="casual"
+                android:text="Name : Mobarak Hossen(Team Leader)" />
+
+            <ImageView
+                android:id="@+id/mobarak_fd"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/fb" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="casual"
+            android:paddingTop="10dp"
+            android:text="Phone : 01919170989" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_main"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Back" />
+
+</RelativeLayout>

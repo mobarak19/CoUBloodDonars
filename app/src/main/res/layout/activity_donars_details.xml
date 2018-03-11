@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donars_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.cse.cou.mobarak.coublooddonars.DonarsDetails">
+
+    <TextView
+        android:text="Donars Details"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:foreground="@drawable/border_radious"
+        android:background="#ddd"
+        android:textAllCaps="true"
+
+        android:layout_marginBottom="20dp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:src="@drawable/blood"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:text="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/mystyle"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/single_donar_name" />
+
+    <TextView
+        android:text="age"
+        style="@style/mystyle"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/single_donar_age" />
+
+    <TextView
+        android:text="blood"
+        style="@style/mystyle"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/single_donar_blood" />
+
+    <TextView
+        android:text="phone"
+        style="@style/mystyle"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/single_donar_phone" />
+    <TextView
+        android:text="LastDonation"
+        style="@style/mystyle"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/single_donar_Last_donation" />
+    <Button
+        android:id="@+id/back_btn"
+        android:text="Back"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
